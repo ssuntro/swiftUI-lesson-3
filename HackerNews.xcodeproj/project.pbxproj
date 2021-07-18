@@ -13,6 +13,8 @@
 		BBB650F726A45A400048E7EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB650F626A45A400048E7EA /* Preview Assets.xcassets */; };
 		BBB6510226A45A400048E7EA /* HackerNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6510126A45A400048E7EA /* HackerNewsTests.swift */; };
 		BBB6510D26A45A400048E7EA /* HackerNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6510C26A45A400048E7EA /* HackerNewsUITests.swift */; };
+		BBB6511B26A460190048E7EA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6511A26A460190048E7EA /* NetworkManager.swift */; };
+		BBB6511D26A4602F0048E7EA /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6511C26A4602F0048E7EA /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BBB6510826A45A400048E7EA /* HackerNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB6510C26A45A400048E7EA /* HackerNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsUITests.swift; sourceTree = "<group>"; };
 		BBB6510E26A45A400048E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB6511A26A460190048E7EA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BBB6511C26A4602F0048E7EA /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				BBB650F126A45A3D0048E7EA /* ContentView.swift */,
 				BBB650F326A45A400048E7EA /* Assets.xcassets */,
 				BBB650F826A45A400048E7EA /* Info.plist */,
+				BBB6511C26A4602F0048E7EA /* PostData.swift */,
+				BBB6511A26A460190048E7EA /* NetworkManager.swift */,
 				BBB650F526A45A400048E7EA /* Preview Content */,
 			);
 			path = HackerNews;
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB6511B26A460190048E7EA /* NetworkManager.swift in Sources */,
+				BBB6511D26A4602F0048E7EA /* PostData.swift in Sources */,
 				BBB650F226A45A3D0048E7EA /* ContentView.swift in Sources */,
 				BBB650F026A45A3D0048E7EA /* HackerNewsApp.swift in Sources */,
 			);
